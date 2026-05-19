@@ -1,5 +1,25 @@
 ##################################
-# standard patch format:
+# JSON patch format:
+##################################
+# smcnoblink.json
+
+# signature and wildcard based patches
+# {
+#   "E4 A2 CF 92 E0 A2 CE 22": "E4 D3 22 00 00 00 00 00"
+# }
+
+##################################
+# GXP patch format:
+##################################
+
+# The format to build unified patch binaries for gxBuild.
+# A 16-byte header followed by XEPATCH or GXS sections seperated by the 
+# standard 0xFFFFFFFF. Contains important info in the header:
+
+
+
+##################################
+# XEPATCH format:
 ##################################
 .long address
 .long size # number of u32 in patches

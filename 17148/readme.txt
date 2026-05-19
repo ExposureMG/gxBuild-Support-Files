@@ -2,11 +2,16 @@ see filelist.ini for the list of files found/to place here
 
 required for each build type that will be supported by the files:
 _retail.ini  : for retail images
+_jtag.ini    : for jtag images
 _glitch.ini  : for gg images
 _glitch2.ini : for gg images using dual CB
-_jtag.ini    : for jtag images
+_glitch3.ini : for gg images using triple CB
 _devkit.ini  : for devkit images
+_devgl.ini   : for devkit images
+_rgbuild.ini : for RGLoader devkit conversion images
+
 _jtag_bigflash.ini : alternate name used with -i bigflash option on command line
+_jtag_xell.ini : alternate name used to replace CF, CG and FlashFS with XeLL
 
 optionally, the system update container (su20076000_00000000) can be provided for flash files
 and backed by files automatically extracted from nanddump.bin or found in /common folder
