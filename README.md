@@ -16,15 +16,19 @@ Required folders and files to run gxBuild. Based on xeBuild 1.21 support files.
 
 - [DashLaunch 3.21](https://digiex.net/threads/dash-launch-3-21-for-jtag-rgh-xbox-360s-running-freeboot.11024/) by c0z
 
-- [xeBuild 1.21 Patches](https://digiex.net/threads/xebuild-1-21-latest-dashboard-system-update-builder-for-jtag-rgh-xbox-360.7278/)
+- [xeBuild 1.21 Patches](https://digiex.net/threads/xebuild-1-21-latest-dashboard-system-update-builder-for-jtag-rgh-xbox-360.7278/) by c0z?
 
-- [XeLL-Reloaded](https://github.com/Free60Project/xell-reloaded) by Free60
+- [XeLL-Reloaded](https://github.com/Free60Project/xell-reloaded) by Free60 (Latest as of 20/5/26)
 
 - [RGH1.3 Patches](https://github.com/wurthless-elektroniks/RGH1.3) by wurthless-elektroniks
 
-- [gxBuild JSON Patches]() (Private Repo)
+- gxBuild JSON Patches (Private Repo)
 
-- [gxBuild GXS2 Patches]() (Private Repo)
+- gxBuild GXS2 Patches (Private Repo)
+
+
+Should I store system update containers and flash files here?
+
 
 ### INIs
 
@@ -71,6 +75,8 @@ common -> Bootloader files common to all versions
 ## Glitch3 Info
 
 - CB_X should be left without a CRC32, and named CBX.bin. This allows the CBX to easily be hot swapped in mydata or common folders.
+
+- You could technically use a specific CB_X version with a CRC but afaik theres benefits and drawbacks to all of them
 
 
 ## Changes to INIs
