@@ -22,24 +22,9 @@ Required folders and files to run gxBuild. Based on xeBuild 1.21 support files.
 
 - [RGH1.3 Patches](https://github.com/wurthless-elektroniks/RGH1.3) by wurthless-elektroniks
 
-- gxBuild JSON Patches (Private Repo)
+- gxBuild JSON Patches
 
-- gxBuild GXS2 Patches (Private Repo)
-
-
-Should I store system update containers and flash files here?
-
-
-### INIs
-
-gxBuild INI format is based on xeBuild, with the payloads section taken from RGBuild.
-
-Included INIs:
-
-- Fixed xeBuild INIs
-
-- Translated RGBuild INIs
-
+- gxBuild GXS2 Patches
 
 ## Structure
 

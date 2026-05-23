@@ -61,11 +61,12 @@
 ##################################
 # gxBuild JSON patch format:
 ##################################
-# smcnoblink.json
-
+# example smcnoblink.json
 # signature and wildcard based patches
-# {
-#   "E4 A2 CF 92 E0 A2 CE 22": "E4 D3 22 00 00 00 00 00"
-# }
+# ?? represents a wildcard byte
+
+{
+  "E4 A2 CF 92 E0 A2 CE 22": "E4 D3 22 00 00 00 00 00"
+}
 
 
