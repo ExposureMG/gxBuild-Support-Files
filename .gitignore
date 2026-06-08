@@ -1,6 +1,5 @@
 logs
 extract-*
-common/*.bin
 mydata/*.bin
 nanddump.bin
 nanddump1.bin
@@ -18,3 +17,7 @@ cpukey.txt
 CPUKey.txt
 cpukey.bin
 CPUKey.bin
+expo_*
+expo
+warp
+*.sh

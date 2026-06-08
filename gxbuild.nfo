@@ -1,0 +1,24 @@
+ExposureMG and GxOSS's gxBuild
+-------------------------------
+Inspired by xeBuild and J-Runner with Extras
+Version 1.23
+Distributed under the GNU General Public License Version 2.0
+
+NOTE: gxBuild is NOT affiliated with xeBuild, fbBuild, ggBuild or RGBuild.
+
+======================================================================
+     Credits - Thanks to:
+======================================================================
+
+- Whoever made xeBuild, and whoever made the xeBuild patches
+
+- erorn - For all the help youv've given, from cleaning my shitty code to fixing obvious things ive missed, and for all the help with SMC and FreeBoot patching
+- wurthless-elektroniks - For all the help with JTAG, FreeBoot, and SMC patching
+- emoose - For your killer reference projects, and basically all of the crypto and FlashFS code
+- M4ttW00d - For actually making me lock in and try this
+
+- InvoxiPlayGames - For your xenon-bltool project, what i originally based gxBuild on; Your research repo was also extremely helpful
+- mitchellwaite - For your xeBuild patch sources, made implementing a patcher and finding offsets far easier
+- 15432 - For RGH3 v2 and your writeup, my only source on how to build glitch3 images
+- Landaire - For your acceleration rust project, amazing crypto, STFS and Keyvault types that ive used directly
+- Swizzy - For your x360utils project, killer references for SMC patches
